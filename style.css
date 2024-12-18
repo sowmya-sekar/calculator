@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub{
+    padding-left:5px;
+    padding-right:5px;
+    width:30px;
+}
+#plus{  
+    width:30px;
+}
+#div,#mul{   
+    width:30px;
+}
+#ans{   
+    width:30px;
+}
+#del{   
+    width:30px;
+    color: red;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero{
+    width:30px;
+}
+#disp{
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.container{
+    padding:10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+button{
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+}
